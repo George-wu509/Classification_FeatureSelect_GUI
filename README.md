@@ -1,7 +1,7 @@
 # Classification_FeatureSelect_GUI
 author: Tzu-Ching Wu(George)
 
-![alt tag](https://github.com/George-wu509/Kaggle_Customer-GUI/blob/master/figure1.png)
+![alt tag](https://github.com/George-wu509/Classification_FeatureSelect_GUI/blob/master/figure%201.png)
 
 
 This project contains the source code of Kaggle_Customer GUI, a matlab-based GUI 
@@ -28,13 +28,9 @@ To run Kaggle_Customer-GUI, just type Customer_GUI in matlab command line.
 * Normalization
 * Binary
 
-2.Feature selection
-* All features
-* Choice feature, and input feature numbers
+2.Cross-Validation N, input integer number bigger than 2
 
-3.Cross-Validation N, input integer number bigger than 2
-
-4.Classification method
+3.Classification method
 * NaiveBayes
 * Decision Tree
 * Discriminant classification
@@ -44,6 +40,20 @@ To run Kaggle_Customer-GUI, just type Customer_GUI in matlab command line.
 * Backpropagation Neural Network(BPN)
 * Radial basis network(RBN)
 * Adaptive neuro-fuzzy inference system(ANFIS)
+
+4.Feature selection method(mix) 
+[Filter]
+* All features
+* PCA
+* FA
+
+[Filter]
+* All features
+* Brute force method
+* Sequential forward selection (SFS)
+* sequential backward selection (SBS)
+* GA
+* Monte-carlo tree search
 
 Update
 ------------------------- 
